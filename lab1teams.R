@@ -15,7 +15,7 @@ pali_autostrada
 waga=0.4536*Weight
 waga
 
-cena=4.47*Min.Price   # Trzeba zmienic cene USD na aktualn¹
+cena=4.47*Min.Price   # Trzeba zmienic cene USD na aktualnÂ¹
 cena
 
 # c)
@@ -35,7 +35,7 @@ paste(Manufacturer[cena>quantile(cena,0.95)],Model[cena>quantile(cena,0.95)],cen
 
 # same obrazki:
 boxplot(pali_miasto~Origin)
-# obrazki plus opis pude³ek
+# obrazki plus opis pudeÂ³ek
 b=boxplot(pali_miasto~Origin)$stats
 b
 # f)
@@ -45,7 +45,7 @@ boxplot(Weight~Origin)
 h <-hist(Weight, freq=F,br=10)
 h
 #br - sugerowana liczba klas histogramu, R jednak wie lepiej i faktyczna jest 
-#tylko zbli¿ona do naszej sugestii
+#tylko zbliÂ¿ona do naszej sugestii
 # jadrowy estymator gestosci
 lines(density(Weight),col="red")
 
